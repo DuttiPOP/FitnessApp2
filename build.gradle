@@ -1,13 +1,11 @@
 plugins {
     id 'java'
+    id 'com.android.application' version '7.4.1' apply false
 }
 
 group = 'com.myproject'
 version = '1.0-SNAPSHOT'
 
-repositories {
-    mavenCentral()
-}
 
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.9.1')
